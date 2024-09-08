@@ -1,0 +1,1947 @@
+
+:root {
+    --sub-green: #0E7907;
+}
+
+body{
+	margin:0px;
+   
+}
+	
+* {
+    box-sizing:border-box;
+}
+
+.section_padtop{
+    padding-top: 80px;
+}
+
+.section_padpb{
+    padding-bottom: 80px;
+}
+
+
+@media(max-width:992px){
+
+    .section_padtop{
+        padding-top: 50px;
+    }
+    
+    .section_padpb{
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:400px){
+
+    .section_padtop{
+        padding-top: 30px;
+    }
+    
+    .section_padpb{
+        padding-top: 30px;
+    }
+}
+
+
+p{
+    color:#3E5034;
+}
+
+h3{
+     color: #97973D;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header start */
+.navbar-nav .nav-link.active{
+
+    color: #0E7907;
+}
+
+.navbar-nav a{
+    color:#3E5034;
+    font-size:17px;
+    font-weight:500;
+    margin:13px;
+}
+
+.navbar-nav a:hover{
+    color:#97973d;
+   
+}
+
+/* header end */
+
+
+/* banner start */
+
+
+.carousel-caption-top {
+    top: 30%;
+    bottom: auto;
+  }
+  
+  .banner_image img {
+    object-fit: cover;
+    height: 550px;
+  }
+
+.carousel-caption p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.carousel-caption h1{
+       
+    font-size:60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+.banner_btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn_more a{
+    background-color: #0E7907;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    font-size:18px;
+    transition: all .3s ease-in-out;
+}
+
+.btn_more a:hover{
+    background-color: #97973D;
+    color: #fff;
+ 
+}
+
+.btn_call a{
+    background-color: #97973D;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    font-size:18px;
+    transition: all .3s ease-in-out;
+}
+
+.btn_call a:hover{
+    background-color: #0E7907;
+    color: #fff;
+
+}
+
+@media(max-width:992px){
+    .carousel-caption h1 {
+        font-size:20px;
+      }
+}
+
+
+@media(max-width:768px){
+    .carousel-caption {
+        padding-bottom: 10rem;
+      }
+}
+
+@media(max-width:510px){
+    .carousel-caption {
+        padding-bottom: 4rem;
+        left: 10%;
+        right: 10%
+      }
+}
+
+@media(max-width:455px){
+
+    .carousel-caption {
+        padding-bottom: 8rem;
+      }
+
+    .btn_more a{
+      
+        padding: 15px;
+        margin: 10px;
+        font-size:12px;
+    }
+    
+    .btn_call a{
+      
+        padding: 15px;
+        margin: 10px;
+        font-size:12px;
+    }
+
+
+    .carousel-caption p{
+        color: #fff;
+        font-size:15px;
+    }
+
+    .carousel-caption h1{
+       
+        font-size:2.1rem;
+    }
+
+    .carousel-caption h5{
+       
+        font-size:14px;
+    }
+
+
+}
+
+
+/* banner end */
+
+/* about section */
+
+.bg_color{
+    background-color: #D4DED6;
+}
+.about_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about_content h3{
+   
+    font-size: 22px;
+}
+
+.about_image img{
+    transition: all .3s ease-in-out;
+}
+
+.about_image img:hover{
+    transform: scale(1.03);
+}
+
+.about_content h2{
+    color: #3E5034;
+    padding-top: 10px;
+    font-family: "Fanwood Text", serif;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.about_content p{
+  
+    padding-top:5px;
+    
+}
+
+.about_banner{
+    background-image: url(..//image/about-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_banner_contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.about_banner_contant h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.about_banner_contant p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.about_page_content h2{
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.about_page_content p{
+    
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.about_content_second{
+    padding-top: 40px;
+}
+.about_bg_second{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+@media(max-width:992px){
+
+    .about_section{
+        padding-bottom: 100px;
+    }
+    .about_content{
+        padding-top: 20px;
+    }
+    .about_image img{
+        width: 100%;
+    }
+
+    .about_content_second{
+        padding-top:0px;
+    }
+
+    .about_page_content h2{
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+      
+    }
+}
+
+/* about end */
+
+/* btn */
+.page_btn{
+    padding-top:18px;
+}
+.page_btn a{
+    background-color: #0E7907;
+    color: #fff;
+    padding:15px;
+    transition: all .3s ease-in-out;
+}
+
+.page_btn a:hover{
+    background-color: #97973D;
+   
+}
+/* btn end */
+
+
+/* footer start */
+
+.footer_section{
+    
+}
+.gree_bg{
+    background-color: #3E5034;
+}
+
+.footer_card_row{
+    padding: 20px;
+    position: relative;
+    top: -40px;
+}
+.footer_card{
+    border: 2px solid#3E5034;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer_card h4{
+    font-size: 20px;
+    color:#3E5034 ;
+}
+
+.footer_card h4 a{
+    
+    color:#3E5034 ;
+}
+
+.footer_content p{
+    color: #fff;
+    padding-top: 20px;
+}
+
+.footer_widgets{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer_menu h4{
+    color: #fff;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.footer_menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.footer_menu a{
+    color: #fff;
+}
+
+.footer_menu a:hover{
+    color: #97973D;
+}
+
+
+.footer_sub_menu h5{
+    color: #fff;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_sub_menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.footer_sub_menu a{
+
+    color: #fff;
+    margin-left: -30px;
+}
+
+.footer_contact p{
+    margin-left: 40px;
+}
+
+.footer_icon a{
+    /* margin-left: 40px; */
+    
+}
+
+.media_icon{
+    padding-left: 40px;
+}
+
+.media_icon i{
+    padding: 10px;
+}
+
+.footer_icon i{
+    font-size: 20px;
+}
+
+.footer_widgets hr{
+    
+    background-color: #fff;
+    height:3px;
+}
+
+.copy_right p{
+
+    color: #fff;
+}
+
+/* media start footer */
+@media(max-width:992px){
+    
+    .footer_card{
+        margin: 20px;
+    }
+    .footer_menu h4{
+       
+        margin-left: 0px;
+       
+    }
+    .footer_menu ul{
+        margin-left: -40px;
+    }
+
+    .footer_sub_menu h5{
+
+        margin-left: 0px;
+       }
+    .footer_sub_menu a{
+
+     margin-left: -40px;
+    }
+
+    .footer_contact p{
+        margin-left:0px;
+    }
+    .media_icon{
+        padding-left:0px;
+    }
+
+   .copy_right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+}
+/* media end footer */
+
+
+/* packages start */
+
+.treatment_head h3{
+    font-size:17px;
+}
+
+.treatment_head h1{
+    font-family: "Fanwood Text", serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #3E5034;
+}
+
+
+.package_card img{
+
+    border: 2px solid#97973D;
+    transition: all .3s ease-in-out;
+}
+.package_card:hover img{
+    transform: scale(1.05);
+}
+.package_card_title{
+    background-color: #3E5034;
+   
+    position: relative;
+    bottom: 50px;
+    padding: 8px;
+    text-align: center;
+    /* width:fit-content; */
+}
+
+/* @media(max-width:400px){
+    .package_card_title{
+        width: auto;
+    }
+} */
+
+.package_card_title h5{
+    color: #fff;
+   
+}
+
+.peckage_bottom_content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+
+    .treatment_head h1{
+       
+        font-size: 25px;
+       
+    }
+}
+
+/* package end */
+
+/* video section */
+
+.video_title h1{
+    font-family: "Fanwood Text", serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #3E5034;
+}
+
+.video_image{
+    position: relative;
+}
+
+.video_image .play_btn{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    font-size:50px;
+}
+
+/* .video_card{
+    padding: 20px;
+}
+
+
+.card_video{
+    position: relative;
+} */
+/* .play_btn{
+    position: absolute;
+    top: 40%;
+    left:45%;
+    
+} */
+
+/* .play_btn{
+    width:50px;
+} */
+
+
+
+.owl-carousel .item {
+    margin-bottom: 20px;
+  }
+
+@media(max-width:768px){
+
+    .video_title h1{
+       
+    font-size: 25px;
+      
+    }
+}
+/* video section end */
+
+
+/* speciality_content */
+
+.speciality_content h2{
+    color: #fff;
+    font-family: "Fanwood Text", serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.speciality_content p{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.speciality-image{
+    display: flex;
+    justify-content: end;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+.speciality-image img{
+    width:100%;
+}
+.speciality-image:hover{
+    transform: scale(1.05);
+}
+
+
+
+.know_btn{
+    margin-top: 40px;
+}
+.know_btn a{
+
+    background-color: #ffffff;
+    color: #3E5034;
+    padding: 10px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.know_btn a:hover{
+
+    background-color: #97973D;
+    color: #fff;
+
+}
+
+@media(max-width:992px){
+    .speciality-image{
+        display: flex;
+        justify-content:start;
+        padding-top: 30px;
+    }
+
+}
+
+@media(max-width:768px){
+    
+    .speciality_content h2{
+       
+        font-size:30px;
+        font-weight: 400;
+    }
+
+}
+
+/* speciality content end */
+
+/* treatment start  */
+
+.treatment_card{
+    background-color: #ffffff;
+    border: 2px solid#97973D;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.treatment_card:hover img{
+    transform: scale(1.05);
+}
+
+.treatment_card .treatment_btn a{
+    transition: all .3s ease-in-out;
+}
+
+.treatment_card:hover .treatment_btn a{
+    color: #97973D;
+}
+
+.treatment_card img{
+    transition: all .3s ease-in-out;
+    width:100%;
+}
+
+/* hover img */
+
+.treatment_card_images{
+
+    overflow: hidden;
+}
+
+.treatment_card_images img{
+
+    transition: transform .5s ease;
+}
+
+.treatment_card_images img:hover{
+
+    transform: scale(1.5);
+}
+/* hover end */
+
+
+.treatment_content{
+    padding: 20px;
+}
+
+.treatment_content h4{
+    color: #3E5034;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+.treatment_content p{
+    color: #363636;
+    font-size: 14px;
+    font-weight:400;
+    font-family: "Inter", sans-serif;
+
+}
+
+.treatment_btn a{
+    color: #3E5034 ;
+    font-weight: 500;
+}
+
+.treatment_btn a:hover{
+    color: #97973D;
+}
+
+.treatment_bottom_content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media(max-width:992px){
+    .treatment_card{
+      margin: 20px;
+    }
+}
+
+/* treatment end */
+
+/* testimonials start */
+
+/* .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .carousel-inner {
+    text-align: center;
+  } */
+
+.testimonials_pb{
+    padding-bottom: 80px;
+}
+.testimonials_caption{
+    color: #000000;
+   
+ }
+
+.testimonials_caption p{
+
+    color: #363636;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+.testimonials_caption h5{
+
+    color: #000000;
+    font-weight: 700;
+    font-size:25px;
+}
+
+.testimonials_caption h6{
+
+    font-size:20px;
+}
+
+.testimonials_image img{
+    margin-bottom: 280px;
+}
+
+@media(max-width:1200px){
+
+    .testimonials_image img{
+        margin-bottom: 300px;
+    }
+}
+
+@media(max-width:992px){
+
+    .testimonials_pb{
+        padding-bottom:0px;
+    }
+}
+
+@media(max-width:768px){
+
+    .testimonials_image img{
+        margin-bottom: 625px;
+    }
+
+    .testimonials_caption p{
+        text-align:center;
+       
+    }
+
+   .testimonials_content_section{
+
+    height: 680px;
+    
+   }
+  
+}
+
+@media(max-width:415px){
+    .testimonials_image img{
+        margin-bottom: 690px;
+    }
+}
+
+/* testimonials end */
+
+/* cta  */
+
+.cta_caption{
+    padding: 30px;
+    color: #ffffff;
+}
+
+.cta_caption h4{
+    color: #A4A4A4;
+    font-family: "Fanwood Text", serif;
+}
+
+.cta_caption h5{
+    color: #E2E2E2;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: "Fanwood Text", serif;
+}
+
+
+.cta_btn{
+   padding-top: 40px;
+}
+.cta_btn a{
+    background-color: #ffffff;
+    padding: 10px;
+    color: #3E5034;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.cta_btn a:hover{
+
+    background-color: #97973D;
+    color: #fff;
+
+}
+
+.cta_bg{
+    padding: 30px ;
+    transition: all .3s ease-in-out;
+}
+
+.cta_bg:hover{
+    transform: scale(1.03);
+}
+
+.cta_section_pad{
+    padding-bottom: 100px;
+}
+/* cta end */
+
+
+/* why choose start*/
+
+.why_choose h1{
+
+    font-weight: 400;
+    font-size: 45px;
+    color: #3E5034;
+    font-family: "Fanwood Text", serif;
+}
+
+.why_choose h4{
+  
+    color: #0E7907;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Fanwood Text", serif;
+}
+
+
+.why_choose_content{
+    
+    padding-top: 70px;
+}
+.why_choose_content p{
+
+    color: #0E7907;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.why_choose_content_right{
+    padding-top: 70px;
+}
+
+.why_choose_content_right p{
+    
+    color: #0E7907;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.why_choose_image{
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.why_choose_image img{
+    width:60%;
+}
+
+@media(max-width:992px){
+
+    .why_choose_content{
+        text-align: center;
+    }
+
+    .why_choose_content_right p{
+        text-align: center;
+    }
+
+    .why_choose h1{
+
+        font-size: 25px;
+    }
+    
+    .why_choose_content{
+        
+        padding-top:30px;
+    }
+
+    .why_choose_content_right{
+        padding-top: 30px;
+    }
+
+    .why_choose_image{
+
+        padding-top:30px;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* why choose end*/
+
+/* our mission start */
+
+.mission_bg{
+    background-color: #ccd1cd;
+}
+
+.mission_content h1{
+    color: #3E5034;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: "Fanwood Text", serif;
+}
+
+.mission_sub h2{
+    color: #3E5034;
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-family: "Fanwood Text", serif;
+    font-style: italic;
+}
+
+.mission_sub p{
+    color: #363636;
+    font-size: 17px;
+}
+
+
+.mission_sub{
+
+    padding-top:20%;
+    
+}
+
+.mission_image{
+    display: flex;
+    justify-content: end;
+}
+.mission_image img{
+    width: 90%;
+    
+}
+
+.mission_image-2{
+
+    display: flex;
+    justify-content:left;
+}
+
+.mission_image-2 img{
+    width: 100%;
+    
+}
+
+
+@media(max-width:992px){
+
+    
+    .mission_image img{
+        width: 100%;
+        margin-top:20px;
+    }
+    
+    .mission_second_row{
+        padding-top: 20px;
+    }
+
+    .mission_second_row .mission_sub{
+
+        padding-top:10%;
+    }
+
+    .mission_third_row .mission_sub{
+
+        padding-top:5%;
+    }
+
+  
+
+}
+/* mission end */
+
+/* why_we section start  */
+
+.why_we_section{
+    background-image: url(..//image/Group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+
+.why_we{
+    padding-top:15%;
+}
+.why_we h4{
+    color: #0E7907;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.why_we h1{
+    color: #3E5034;
+    font-size: 52px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+.why_we p{
+    color: #363636;
+    font-size:18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.why_we_right_side{
+    display: flex;
+}
+.why_we_right img{
+    padding-left: 50px;
+}
+
+.why_we_right_content{
+    
+    padding-left:100px ;
+    padding-top:15px;
+}
+
+.why_we_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.why_we_right_content h4{
+
+    font-family: "Fanwood Text", serif;
+    color: #0E7907;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.why_we_right_content p{
+
+    font-family: "Open Sans", sans-serif;
+    color: #363636;
+    font-size:15px;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+
+/* why_we section end  */
+
+
+/* Treatments page */
+
+
+.treatment_banner{
+    background-image: url(..//image/treatment_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.treatment_banner_contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.treatment_banner_contant h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.treatment_banner_contant p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+
+    .treatment_banner_contant h2{
+        font-size: 30px;
+      
+    }
+    
+    .treatment_banner_contant p{
+      
+        font-size: 15px;
+       
+    }
+}
+
+/* Treatments page end */
+
+/* contact page */
+
+.contact_banner{
+    background-image: url(..//image/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_banner_contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.contact_banner_contant h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.contact_banner_contant p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.address_head h4{
+
+    color: #0E7907;
+    font-family: "Fanwood Text", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.address_head h1{
+
+    color: #0E7907;
+    font-family: "Fanwood Text", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.address_head span{
+
+    color: #3E5034;
+    font-family: "Fanwood Text", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/* adress card */
+.address_card{
+    border: 1px solid#3E5034;
+    padding: 20px;
+}
+
+.address_card i{
+    color: #3E5034;
+    font-size: 23px;
+   
+}
+
+.address_card_text{
+    padding-top: 60px;
+}
+.address_card_text h2{
+    color: #3E5034;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.address_card_text h6{
+    color: #3E5034;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+
+.address_card_text a{
+    color: #0E7907;
+    font-size:17px;
+    font-weight: 700;
+    
+    
+}
+
+.address_card:hover{
+    background-color: #3E5034;
+    
+}
+.address_card:hover i{
+    color: #ffffff;
+    
+}
+
+.address_card_text:hover a {
+    color: #ffffff;
+}
+
+.address_card_text:hover h2 {
+    color: #ffffff;
+}
+.address_card_text:hover h6 {
+    color: #ffffff;
+}
+/* adress card end*/
+
+
+
+
+@media(max-width:768px){
+
+    .contact_banner_contant h2{
+        font-size: 30px;
+      
+    }
+    
+    .contact_banner_contant p{
+      
+        font-size: 15px;
+       
+    }
+
+    .address_head h4{
+
+        margin-top: 0px;
+    }
+    
+    .address_head h1{
+    
+        font-size: 30px;
+    }
+    
+    .address_head span{
+    
+        font-size: 30px;
+    }
+    
+}
+
+
+.form-head h1{
+    color: #0E7907;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+.form-head span{
+    color: #3E5034;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+
+
+.contact-form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 50px;
+    
+}
+
+.form-group{
+   
+    margin-top: 40px;
+    
+}
+
+.btn_send{
+    text-align: end;
+}
+
+.send_btn{
+    background-color: #3E5034;
+    border: none;
+    border-radius:0px;
+    font-size:17px;
+    font-weight: 500;
+}
+
+.form-group .input{
+    border: none;
+    border-radius: none;
+}
+
+.send_btn:hover{
+    background-color: #0E7907;
+    
+}
+
+.form-control{
+    background-color: #c8cfca;
+    border: none;
+    border-radius:0px;
+}
+
+
+@media(max-width:992px){
+    .contact-form{
+        padding-top: 30px;
+        
+    }
+}
+
+@media(max-width:768px){
+    .contact-form{
+        padding: 20px;
+        
+    }
+
+    .btn_send{
+        text-align:start;
+    }
+}
+
+/* contact end */
+
+
+/* treatment detai  */
+
+
+.treatment_detai_banner{
+    background-image: url(..//image/treatment-detail-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.treatment_detai_banner_contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.treatment_detai_banner_contant h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.treatment_detai_banner_contant p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+
+    .treatment_detai_banner_contant h2{
+        font-size: 30px;
+      
+    }
+    
+    .treatment_detai_banner_contant p{
+      
+        font-size: 15px;
+       
+    }
+}
+
+.booknow_btn{
+    background-color: #3E5034;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.book_now_form .form-control{
+    border: 1px solid#3E5034;
+    
+}
+
+
+
+.book-now-head h1{
+    color: #3E5034;
+    font-size: 47px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    text-align: center;
+}
+
+
+.book_now_form .form-group{
+    margin-top: 20px;
+}
+
+.book_now_section{
+    background-color: #d0d3d0;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.detail_page_content{
+    position: relative;
+    bottom: 90px;
+}
+
+.detail_pharagrph p{
+    font-size: 18px;
+    color: #363636;
+}
+
+.detail_pharagrph h2{
+    font-size: 40px;
+    color: #363636;
+    font-family: "Fanwood Text", serif;
+}
+
+.detail_pharagrph_sub h1{
+    font-size: 45px;
+    color: #363636;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+.detail_pharagrph_sub p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+
+.detail_pharagrph_second_sub h1{
+    font-size: 45px;
+    color: #363636;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+.detail_pharagrph_second_sub h2{
+    font-size: 34px;
+    color: #363636;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    font-style: italic;
+}
+
+.detail_pharagrph_second_sub p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+   
+}
+
+
+@media(max-width:768px){
+
+    .detail_pharagrph_sub h1{
+        font-size:30px;
+       
+    }
+
+    .detail_pharagrph_second_sub h1{
+        font-size:30px;
+      
+    }
+}
+
+/* treatment detai end  */
+
+
+/* our  doctor page */
+
+.doctor_heading h1{
+
+    font-size: 50px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    text-align: center;
+}
+
+.doctor_heading p{
+
+    font-size:19px;
+    color: #97973D;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    text-align: center;
+
+}
+
+.dr_card{
+    
+    position: relative;
+}
+
+.dr_name{
+    background-color: #ffffff;
+    width: 278px;
+    height: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:absolute;
+    bottom: 110px;
+    left:10%;
+
+}
+
+.dr_name h1{
+    
+    font-size: 30px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.dr_name h3{
+    
+    font-size:17px;
+    color: #97973D;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.dr_crd_btn{
+    width: 100%;
+    background-color: #3E5034;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.dr_crd_btn a{
+    
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+        
+}
+
+
+@media(max-width:992px){
+
+     .dr_card{
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+@media(max-width:768px){
+
+    .doctor_heading h1{
+        font-size: 25px;
+      
+    }
+
+    .doctor_heading p{
+        font-size:15px;
+    }
+
+    .dr_name{
+        
+        width:100%;
+        left: 0%;
+    }
+
+}
+
+/* our dr page end */
+
+
+/* dr detail page */
+
+.dr_detail_content{
+    
+}
+.dr_detail_content h1{
+
+    font-size: 50px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.dr_detail_content h2{
+
+    font-size: 22px;
+    color: #0E7907;
+    font-weight: 500;
+    
+}
+.dr_detail_content h3{
+    font-size:19px;
+    color: #97973D;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.dr_detail_content p{
+    font-size:18px;
+    color: #363636;
+    font-weight: 400;
+    
+}
+
+@media(max-width:992px){
+    .dr_detail_content{
+        padding-top: 30px;
+    }
+}
+
+/* dr fetail page end */
+
+
+
+/* center page and list css */
+
+
+.center_banner{
+    background-image: url(..//image/treatment_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.center_banner_contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.center_banner_contant h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+    
+}
+
+.center_banner_contant p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+
+    .center_banner_contant h2{
+        font-size: 30px;
+      
+    }
+    
+    .center_banner_contant p{
+      
+        font-size: 15px;
+       
+    }
+}
+
+.center_card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.center_image img{
+    height:300px;
+}
+
+.center_content{
+    padding-top: 20px;
+}
+.center_head h1{
+
+    font-size: 50px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+
+}
+
+.center_card h1{
+
+    font-size:25px;
+    color: #3E5034;
+    font-weight: 800;
+    font-family: "Fanwood Text", serif;
+}
+
+
+
+@media(max-width:992px){
+    .center_card{
+        margin: 20px;
+    }
+}
+
+/* center page and list css end */
+
+
+
+
+/* courses page list and course detail page css */
+
+.course_card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 50px;
+}
+
+.course_card img{
+    transition: all .3s ease-in-out;
+}
+
+.course_card img:hover{
+    transform: scale(1.02);
+}
+
+.course_heading h1{
+
+    font-size: 50px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+.course_content h1{
+
+    font-size: 40px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+}
+
+
+.course_detail_one{
+
+  padding-top: 20px;
+}
+
+.course_detail_one h1{
+
+    font-size: 50px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+
+}
+
+.course_detail_one h3{
+
+    font-size: 30px;
+    color: #3E5034;
+    font-weight: 400;
+    font-family: "Fanwood Text", serif;
+
+}
+
+.course_month h4{
+    color: var(--sub-green);
+    font-weight: 600;
+}
+
+
+@media(max-width:768px){
+
+    .course_content{
+        padding-top: 20px;
+    }
+    .course_heading h1{
+
+        font-size:30px;
+    }
+
+    .course_content h1{
+
+        font-size: 25px;
+    }
+
+    .course_detail_one h1{
+
+      font-size:30px;
+     
+    }
+
+}
+
+.detail_page_image {
+    width: 45rem !important;
+}
+
+/* courses page list and course detail page css end */
+
+
+
+/* floating btn stat */
+.floating-btn-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    z-index: 1000;
+}
+
+
+.floating-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+
+.floating-btn.call {
+    background-color: #97973d;
+}
+
+
+.floating-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+/* floating end */
+
