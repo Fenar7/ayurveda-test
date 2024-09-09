@@ -2,7 +2,7 @@
 :root {
     --sub-green: #0E7907;
     --main-green: #3E5034;
-    --hash-green: #B2D5B9;
+    --hash-green: #c3dfc9df;
 }
 
 body{
@@ -1830,6 +1830,39 @@ a{
     border: 1px solid var(--main-green);
     background-color: var(--hash-green);
     border-radius: 0.8rem;
+
+    h5{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--main-green);
+        margin-bottom: 1rem;
+    }
+
+    h6{
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--main-green);
+    }
+
+    transition: all .3s ease-in-out;
+}
+
+.course_day:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--main-green);
+
+    h5{
+        color: white;
+    }
+
+    h6{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
 }
 
 
@@ -1843,6 +1876,14 @@ a{
 .course_day {
     flex: 1 1 calc(25% - 1em); /* 25% width minus the gap */
     box-sizing: border-box; /* to ensure padding doesn't affect width */
+
+    @media(max-width:768px){
+        flex: 1 1  calc(33.33333333%)
+    }
+
+    @media(max-width:576px){
+        flex: 1 1 calc(100%)
+    }
 }
 
 .course_card img{
