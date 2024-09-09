@@ -357,25 +357,26 @@
 
 
   <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var splide = new Splide('#image-carousel', {
-            type    : 'loop',
-            perPage : 3,
-            focus   : 'center',
-            pagination: false, // Disable the dots
-            omitEnd: true,
-            breakpoints: {
-              768: {
-                perPage: 1, // Adjust for smaller screens
-              },
-              1024: {
-                perPage: 2, // Adjust for medium screens
-              }
-            }
-          });
-
-          splide.mount();
+        document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '.splide', {
+    type   : 'loop', // Loop through slides
+    autoScroll: {
+      speed: 2,      // Speed of auto-scroll (higher number = faster scroll)
+    },
+    breakpoints: {
+      768: {
+        perPage: 1, // Adjust for smaller screens
+      },
+      1024: {
+        perPage: 2, // Adjust for medium screens
+      }
+    },
+    perPage: 3,      // Number of visible slides at a time
+    pauseOnHover: false,  // Continue scrolling when hovered
+    pauseOnFocus: false,  // Continue scrolling even when slider gets focus
+  } ).mount( window.splide.Extensions );
 });
+
 
 </script>
 
@@ -386,7 +387,7 @@
 
   <!-- splide js slider -->
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.1/dist/js/splide-extension-auto-scroll.min.js"></script>
 
 </body>
 

@@ -1505,6 +1505,10 @@ a{
 .detail_page_content{
     position: relative;
     bottom: 90px;
+
+    @media(max-width:576px){
+        padding-top: 3em;
+    }
 }
 
 .detail_pharagrph p{

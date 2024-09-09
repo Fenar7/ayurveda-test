@@ -1267,6 +1267,11 @@ a {
   position: relative;
   bottom: 90px;
 }
+@media (max-width: 576px) {
+  .detail_page_content {
+    padding-top: 3em;
+  }
+}
 
 .detail_pharagrph p {
   font-size: 18px;
