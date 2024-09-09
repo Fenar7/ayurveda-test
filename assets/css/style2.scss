@@ -1465,6 +1465,10 @@ a{
     background-image: url(..//image/treatment-detail-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .treatment_detai_banner_contant{
