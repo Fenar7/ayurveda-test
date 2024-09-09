@@ -1886,6 +1886,20 @@ a{
     }
 }
 
+.course-week-heading{
+    font-size: 1.5rem;
+    color: var(--main-green);
+    font-weight: 700;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+.course-image-container-main{
+    .image-container{
+
+    }
+}
+
 .course_card img{
     transition: all .3s ease-in-out;
 }
@@ -1939,7 +1953,6 @@ a{
 }
 
 .image-main-div{
-    width: 100%;
     border-radius: 1rem;
 }
 
