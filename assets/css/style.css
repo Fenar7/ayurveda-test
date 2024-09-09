@@ -1,6 +1,7 @@
 
 :root {
     --sub-green: #0E7907;
+    --main-green: #3E5034;
 }
 
 body{
@@ -1823,6 +1824,12 @@ a{
     margin-top: 50px;
 }
 
+.course_day{
+    padding: 1em;
+    background-color: red;
+    margin: 1em;
+}
+
 .course_card img{
     transition: all .3s ease-in-out;
 }
@@ -1872,8 +1879,45 @@ a{
 
 .course_month h4{
     color: var(--sub-green);
-    font-weight: 600;
+    font-weight: 700;
 }
+
+.image-main-div{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+@media(max-width:576px){
+    .image-main-div{
+        width: unset;
+    }
+}
+
+.image-main-div img{
+    transition: all .3s ease-in-out;
+}
+
+.image-main-div img:hover{
+    transform: scale(1.05);
+}
+
+.img-detail-main{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.course_object h5{
+    color: var(--main-green);
+    font-weight: 700;
+}
+
+.course_structure h5{
+    color: var(--main-green);
+    font-weight: 700;
+}
+
+
+
 
 
 @media(max-width:768px){
