@@ -1714,4 +1714,24 @@ a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* floating end *//*# sourceMappingURL=style2.css.map */
+/* floating end */
+.splide .splide__track {
+  height: 50vh !important;
+}
+.splide .splide__track .splide__slide .splide__list img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}/*# sourceMappingURL=style2.css.map */

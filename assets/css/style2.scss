@@ -2058,3 +2058,29 @@ a{
 }
 /* floating end */
 
+.splide{
+    .splide__track{
+        height: 50vh!important;
+        .splide__slide {
+            .splide__list{
+                img{
+                    width: 100%;
+                    height: 100%;   
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+    }
+}
+
+.splide__slide img{
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
