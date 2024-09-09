@@ -80,13 +80,36 @@ a{
 
 
 /* banner start */
-
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .carousel-caption-top {
-    top: 30%;
-    bottom: auto;
+    top: 15%;
+    bottom: 10%;
   }
-  
+
+@media(min-width:1400px){
+    .carousel-caption-top{
+        top: 25%;
+    }
+}
+@media(max-width:900px){
+    .carousel-caption{
+        top: 25%;
+        bottom: 25%;
+    }
+}
+@media(max-width:768px){
+    .carousel-caption{
+        position: absolute;
+  top: 30%;
+  transform: translateY(-30%); /* Vertically centers the element */
+    }
+}
   .banner_image img {
     object-fit: cover;
     height: 550px;
@@ -141,10 +164,16 @@ a{
 }
 
 @media(max-width:992px){
-    .carousel-caption h1 {
-        font-size:20px;
-      }
+    .carousel-caption{
+        h1{
+            font-size:2.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
 }
+
 
 
 @media(max-width:768px){
@@ -153,12 +182,20 @@ a{
       }
 }
 
-@media(max-width:510px){
+@media(max-width:768px){
     .carousel-caption {
         padding-bottom: 4rem;
         left: 10%;
         right: 10%
       }
+}
+
+@media(max-width:576px){
+    .carousel-caption{
+        left: 5%!important;
+        right: 5%!important;
+        width: 90%;
+    }
 }
 
 @media(max-width:455px){
@@ -2095,3 +2132,6 @@ a{
 
 
 
+footer{
+    overflow: hidden!important;
+}

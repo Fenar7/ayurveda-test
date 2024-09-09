@@ -66,11 +66,36 @@ a {
 
 /* header end */
 /* banner start */
-.carousel-caption-top {
-  top: 30%;
-  bottom: auto;
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.carousel-caption-top {
+  top: 15%;
+  bottom: 10%;
+}
+
+@media (min-width: 1400px) {
+  .carousel-caption-top {
+    top: 25%;
+  }
+}
+@media (max-width: 900px) {
+  .carousel-caption {
+    top: 25%;
+    bottom: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%); /* Vertically centers the element */
+  }
+}
 .banner_image img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -124,7 +149,10 @@ a {
 
 @media (max-width: 992px) {
   .carousel-caption h1 {
-    font-size: 20px;
+    font-size: 2.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
   }
 }
 @media (max-width: 768px) {
@@ -132,11 +160,18 @@ a {
     padding-bottom: 10rem;
   }
 }
-@media (max-width: 510px) {
+@media (max-width: 768px) {
   .carousel-caption {
     padding-bottom: 4rem;
     left: 10%;
     right: 10%;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    left: 5% !important;
+    right: 5% !important;
+    width: 90%;
   }
 }
 @media (max-width: 455px) {
@@ -1744,4 +1779,8 @@ a {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+footer {
+  overflow: hidden !important;
 }/*# sourceMappingURL=style2.css.map */
